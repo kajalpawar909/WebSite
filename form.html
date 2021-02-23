@@ -6,18 +6,33 @@
     <title>Document</title>
   </head>
   <body>
-    <form action="./welcom.htm">
-      <label>Name : </label
-      ><input
-        placeholder="Username"
-        title="Lorem ipsum dolor, sit amet consectetur adipisicing elit. "
-        type="text"
-      />
-      <br />
-      <lable>Password : </lable>
-      <input placeholder="password" type="password" />
-      <br />
-      <input type="submit" value="Send Form" />
+    <form action="./welcom.htm" method="Get">
+      <fieldset>
+        <legend>Registartion form</legend>
+
+        <label>Name : </label
+        ><input
+          placeholder="Username"
+          title="Lorem ipsum dolor, sit amet consectetur adipisicing elit. "
+          type="text"
+          name="uname"
+        />
+
+        <br />
+        <lable>Password : </lable>
+        <input placeholder="password" type="password" name="pass" />
+
+        <br />
+        <lable>color : </lable>
+        <input type="color" />
+
+        <br />
+        <lable>date : </lable>
+        <input type="date" />
+
+        <br />
+        <input type="submit" value="Send Form" />
+      </fieldset>
     </form>
   </body>
 </html>
