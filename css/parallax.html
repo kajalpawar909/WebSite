@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      * {
+      /* * {
         margin: 0;
         padding: 0;
-      }
+      } */
       .cls {
         border: 1px solid silver;
         height: 450px;
@@ -51,10 +51,31 @@
         float: left;
         height: 450px;
       }
+
+      .menu li {
+        color: grey;
+        display: inline;
+        /* border: 1px solid silver; */
+        margin: 4px;
+        padding: 4px;
+        box-shadow: 3px 3px 6px orange;
+        border-radius: 5px;
+      }
+
+      .menu li:hover {
+        box-shadow: 1px 1px 3px red;
+      }
     </style>
   </head>
   <body>
-    <div class="cls" id="div1"><h1>1</h1></div>
+    <div class="cls" id="div1">
+      <ul class="menu">
+        <li>Home</li>
+        <li>Products</li>
+        <li>Contact Us</li>
+        <li>Help</li>
+      </ul>
+    </div>
     <div class="cls" id="div2"><h1>2</h1></div>
     <div class="cls" id="div3"><h1>3</h1></div>
     <div class="cls" id="div4"><h1>4</h1></div>
