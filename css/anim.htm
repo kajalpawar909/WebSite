@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        height: 300px;
+        width: 300px;
+        background-color: grey;
+        animation: my-anim 4s infinite;
+      }
+
+      @keyframes my-anim {
+        0% {
+          background-color: red;
+        }
+        40% {
+          background-color: green;
+        }
+
+        60% {
+          background-color: black;
+        }
+        100% {
+          background-color: blue;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+  </body>
+</html>
