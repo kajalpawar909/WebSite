@@ -6,20 +6,30 @@
     <title>Document</title>
     <style>
       div {
-        height: 300px;
-        width: 300px;
-        background-color: grey;
-        animation: my-anim 4s;
+        width: 200px;
+        height: 200px;
+        background-color: green;
+        /* transition: width 4s, height 4s, background-color 4s; */
+        animation: our-anim 4s infinite;
       }
 
-      @keyframes my-anim {
+      @keyframes our-anim {
         to {
+          width: 400px;
+          height: 400px;
           background-color: red;
         }
         from {
-          background-color: blue;
+          width: 200px;
+          height: 200px;
+          background-color: green;
         }
       }
+      /* div:hover {
+        width: 400px;
+        height: 400px;
+        background-color: red;
+      } */
     </style>
   </head>
   <body>
